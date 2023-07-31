@@ -1,0 +1,18 @@
+CREATE DATABASE daqiqzone;
+
+CREATE TABLE sales(
+    SID INT AUTO_INCREMENT PRIMARY KEY,
+    customer NVARCHAR(256) NOT NULL,
+    bill_num VARCHAR(64),
+    date DATE NOT NULL,
+    product NVARCHAR(256) NOT NULL,
+    price FLOAT NOT NULL,
+    quantity INT DEFAULT 1
+);
+
+CREATE TABLE product(
+    PID INT AUTO_INCREMENT PRIMARY KEY,
+    name NVARCHAR(256) NOT NULL,
+    quantity INT NOT NULL,
+    date DATE NOT NULL
+);
