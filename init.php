@@ -23,7 +23,7 @@ if ($server == "local") {
 } else {
 
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'u645214731_tweV4');
-    define('DB_PASS', 't7wwIpQ?');
-    define('DB_NAME', 'u645214731_pKSzv');
+    define('DB_USER', 'u500892208_daqiqzone');
+    define('DB_PASS', '143Kakawjan@12345');
+    define('DB_NAME', 'u500892208_belal');
 }
